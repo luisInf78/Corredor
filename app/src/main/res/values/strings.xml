@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Carreras Populares</string>
+    <string name="title_activity_ciudades">Ciudades</string>
+    <string name="usuario">Usuario</string>
+    <string name="password">Password</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="acceder">Acceso</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="email">email</string>
+    <string name="telefono">telefono</string>
+    <string name="fechaN">Fecha Nacimiento</string>
+    <string name="title_activity_registro_usuario">Registro Corredor</string>
+    <string name="dni">dni</string>
+    <string name="agregar">agregar</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="runner">Runner</string>
+    <string name="triatlon">Triatlon</string>
+    <string name="bici">Bici</string>
+    <string name="categoria">Categoría</string>
+    <string name="sms">sms</string>
+    <string name="correo">email</string>
+    <string-array name="categorias">
+        <item>Runner</item>
+        <item>Bici</item>
+        <item>Triatlon</item>
+    </string-array>
+    <string name="title_activity_detalle_corredor">Info. Corredor</string>
+
+</resources>

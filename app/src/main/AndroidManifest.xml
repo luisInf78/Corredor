@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.luis.examenextra">
+<uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Ciudades"
+            android:label="@string/title_activity_ciudades"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RegistroUsuario"
+            android:label="@string/title_activity_registro_usuario"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".ListadosCorredores" />
+        <activity android:name=".listadoCategorias" />
+        <activity
+            android:name=".detalle_corredor"
+            android:label="@string/title_activity_detalle_corredor"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
